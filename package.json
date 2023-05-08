@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "yoeng.ttt",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Tattoos in London",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "aZero <fran.rodriguez@inferente.com>",
+  "homepage": ".",
   "dependencies": {
     "gatsby": "^5.9.0",
     "gatsby-plugin-image": "^3.9.0",
@@ -12,7 +13,8 @@
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.10"
   },
   "devDependencies": {
     "prettier": "^2.8.8"

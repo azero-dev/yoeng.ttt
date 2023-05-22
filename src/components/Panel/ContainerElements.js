@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components"
 
 export const MessageBanner = styled.div`
-  background-color: #ea4a41;
+  background-color: #fe0000;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,9 @@ export const MessageBanner = styled.div`
 export const MessageText = styled.p`
   margin: 5px;
   text-align: center;
+  font-size: 1.6rem;
   font-weight: bold;
-  font-family: "Tahoma", sans-serif;
+  font-family: "Verdana", sans-serif;
   & a {
     color: #fff;
     text-decoration: none;

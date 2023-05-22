@@ -2,15 +2,16 @@ import styled from "styled-components"
 
 export const ContainerGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 18vh repeat(2, 1fr);
-  height: 100vh;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 18vh repeat(4, 1fr);
+  /* height: 100vh; */
   /* width: 100vw; */
   grid-gap: 0;
 
   @media screen and (max-width: 767px) {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 18vh repeat(4, 1fr);
+    height: 100vh;
     overflow: hidden;
   }
 `
@@ -20,7 +21,7 @@ export const Menu = styled.div`
   justify-content: center;
   align-items: center;
   grid-row: 1 / 2;
-  grid-column: 1 / 9;
+  grid-column: 1 / 6;
   background-color: #f7c243;
 
   & p {

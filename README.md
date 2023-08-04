@@ -1,2 +1,2 @@
 ## Quick website for tattoo artist
-Go to [https://yoeng.art/](website).
+Go to [website](https://yoeng.art/).
